@@ -12,7 +12,6 @@ import Errors from "./views/Errors";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Tables";
 import BlogPosts from "./views/BlogPosts";
-import Login from "./views/Login";
 
 export default [
   {
@@ -24,7 +23,7 @@ export default [
   {
     path: "/blog-overview",
     layout: DefaultLayout,
-    component: Login
+    component: BlogOverview
   },
   {
     path: "/user-profile-lite",
